@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class Resultado extends AppCompatActivity {
 
-    private TextView Mostrar;
+    private TextView Vista;
     private Bundle b;
     private String aux, material,dije,tipo, pago;
     private Resources res;
@@ -19,7 +19,7 @@ public class Resultado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultado);
 
-        Mostrar = (TextView)findViewById(R.id.txtMostrar);
+        Vista = (TextView)findViewById(R.id.txtVista);
 
         b = getIntent().getExtras();
         material = b.getString("Material");
