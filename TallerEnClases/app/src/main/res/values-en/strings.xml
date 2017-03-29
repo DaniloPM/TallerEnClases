@@ -16,4 +16,5 @@
     <string name="Pesos">Pesos</string>
     <string name="Dolares">Dolares</string>
     <string name="Pagar_En">Pay in</string>
+    <string name="Cantidad">Quantity</string>
 </resources>

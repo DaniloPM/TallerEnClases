@@ -15,6 +15,7 @@ private EditText txtMaterial;
     private EditText txtDije;
     private EditText txtTipo;
     private EditText txtPago;
+    private EditText txtCantidad;
     private Spinner comboTipo;
     private RadioButton r4, r5, r6, r7, r8, r9;
     private ArrayAdapter<String> adapter;
@@ -53,10 +54,9 @@ private EditText txtMaterial;
         comboTipo.setAdapter(adapter);
 
 
-
     }
 
-    public void Resultado(View v) {
+    public void Mostrar(View v) {
         String material = " ", dije = " ", tipo, pago = " ";
 
         tipo = comboTipo.getSelectedItem().toString();
@@ -79,5 +79,11 @@ private EditText txtMaterial;
         i.putExtras(b);
 
 
+
+
     }
+
+
+
+
 }

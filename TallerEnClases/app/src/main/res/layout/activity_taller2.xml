@@ -24,6 +24,20 @@
             android:layout_alignParentStart="true">
 
             <TextView
+                android:text="@string/Cantidad"
+                android:layout_width="131dp"
+                android:layout_height="39dp"
+                android:textSize="24sp"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="91dp"
+                android:layout_height="32dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtCantidad" />
+
+            <TextView
                 android:text="@string/Material"
                 android:layout_width="105dp"
                 android:layout_height="wrap_content"
@@ -98,8 +112,7 @@
 
             <RadioGroup
                 android:layout_width="165dp"
-                android:layout_height="41dp"
-                android:layout_weight="0.10" >
+                android:layout_height="wrap_content">
 
                 <RadioButton
                     android:text="@string/Pesos"
@@ -117,11 +130,11 @@
             </RadioGroup>
 
             <Button
-                android:text="@string/Resultado"
+                android:text="Mostrar"
                 android:layout_width="141dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnResultado"
-                android:onClick="Resultado" />
+                android:id="@+id/btnMostrar"
+                android:onClick="Mostrar" />
 
         </LinearLayout>
     </ScrollView>

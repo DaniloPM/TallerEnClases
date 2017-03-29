@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtResultado"
+            android:id="@+id/txtMostrar"
             android:layout_weight="0.43" />
     </LinearLayout>
 </RelativeLayout>
