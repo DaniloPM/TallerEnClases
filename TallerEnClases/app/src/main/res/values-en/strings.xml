@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Classroom Workshop</string>
+    <string name="Material">Material</string>
+    <string name="Dije">pendant</string>
+    <string name="Tipo">type</string>
+    <string name="Cuero">Leather</string>
+    <string name="Cuerda">Rope</string>
+    <string name="Ancla">Anchor</string>
+    <string name="Martillo">Hammer</string>
+    <string name="Oro">Gold</string>
+    <string name="Oro_Rosado">Gold Pink</string>
+    <string name="Plata">silver</string>
+    <string name="Niquel">nickel</string>
+    <string name="Resultado">Result</string>
+    <string name="Pesos">Pesos</string>
+    <string name="Dolares">Dolares</string>
+    <string name="Pagar_En">Pay in</string>
+</resources>

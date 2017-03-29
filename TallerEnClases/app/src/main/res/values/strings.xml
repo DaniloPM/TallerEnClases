@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Taller En Clases</string>
+    <string name="Material">Material</string>
+    <string name="Dije">Dije</string>
+    <string name="Cuero">Cuero</string>
+    <string name="Cuerda">Cuerda</string>
+    <string name="Ancla">Ancla</string>
+    <string name="Martillo">Martillo</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Tipo">Tipo</string>
+    <string name="Oro">Oro</string>
+    <string-array name="Tipo">
+        <item>@string/Oro</item>
+        <item>@string/Oro_Rosado</item>
+        <item>@string/Plata</item>
+        <item>@string/Niquel</item>
+    </string-array>
+    <string name="Oro_Rosado">Oro Rosado</string>
+    <string name="Plata">Plata</string>
+    <string name="Niquel">Niquel</string>
+    <string name="Pesos">Pesos</string>
+    <string name="Dolares">Dolares</string>
+    <string name="Pagar_En">Pagar_En</string>
+
+</resources>
